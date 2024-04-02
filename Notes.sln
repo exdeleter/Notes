@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Runner", "src\Notes.Runner\Notes.Runner.csproj", "{99E5D94C-FEFB-4B5F-937E-473035A540AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Database", "src\Notes.Database\Notes.Database.csproj", "{B73B0AA1-D107-40DC-869D-FCA0C8102E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Models", "src\Notes.Models\Notes.Models.csproj", "{EC2CB2BF-C881-403F-AAFA-E510AD71D00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Infrastructure", "src\Notes.Infrastructure\Notes.Infrastructure.csproj", "{F7011D8F-1FB9-4B02-B8F7-A9C8195941E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Api", "src\Notes.Api\Notes.Api.csproj", "{A0C199F3-5814-4536-BEF4-2A278B725C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Notes.Tests", "src\Notes.Tests\Notes.Tests.csproj", "{3792166D-4A35-4AD6-BAD9-FEC9BB218699}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{CB98DF81-46C2-4BEC-AD47-61537243D10E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{25550B01-D421-4A1D-9829-65A1B0BB4C14}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{6B180774-5FA3-47BA-A608-BB2D59FFED6C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E5D94C-FEFB-4B5F-937E-473035A540AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E5D94C-FEFB-4B5F-937E-473035A540AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E5D94C-FEFB-4B5F-937E-473035A540AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E5D94C-FEFB-4B5F-937E-473035A540AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73B0AA1-D107-40DC-869D-FCA0C8102E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73B0AA1-D107-40DC-869D-FCA0C8102E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73B0AA1-D107-40DC-869D-FCA0C8102E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73B0AA1-D107-40DC-869D-FCA0C8102E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2CB2BF-C881-403F-AAFA-E510AD71D00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2CB2BF-C881-403F-AAFA-E510AD71D00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2CB2BF-C881-403F-AAFA-E510AD71D00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2CB2BF-C881-403F-AAFA-E510AD71D00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7011D8F-1FB9-4B02-B8F7-A9C8195941E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7011D8F-1FB9-4B02-B8F7-A9C8195941E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7011D8F-1FB9-4B02-B8F7-A9C8195941E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7011D8F-1FB9-4B02-B8F7-A9C8195941E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C199F3-5814-4536-BEF4-2A278B725C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C199F3-5814-4536-BEF4-2A278B725C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C199F3-5814-4536-BEF4-2A278B725C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C199F3-5814-4536-BEF4-2A278B725C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3792166D-4A35-4AD6-BAD9-FEC9BB218699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3792166D-4A35-4AD6-BAD9-FEC9BB218699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3792166D-4A35-4AD6-BAD9-FEC9BB218699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3792166D-4A35-4AD6-BAD9-FEC9BB218699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
